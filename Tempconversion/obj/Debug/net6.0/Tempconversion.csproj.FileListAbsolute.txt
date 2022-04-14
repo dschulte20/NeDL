@@ -1,0 +1,15 @@
+C:\Users\DSchulte\Desktop\NeDL\Tempconversion\bin\Debug\net6.0\Tempconversion.exe
+C:\Users\DSchulte\Desktop\NeDL\Tempconversion\bin\Debug\net6.0\Tempconversion.deps.json
+C:\Users\DSchulte\Desktop\NeDL\Tempconversion\bin\Debug\net6.0\Tempconversion.runtimeconfig.json
+C:\Users\DSchulte\Desktop\NeDL\Tempconversion\bin\Debug\net6.0\Tempconversion.dll
+C:\Users\DSchulte\Desktop\NeDL\Tempconversion\bin\Debug\net6.0\ref\Tempconversion.dll
+C:\Users\DSchulte\Desktop\NeDL\Tempconversion\bin\Debug\net6.0\Tempconversion.pdb
+C:\Users\DSchulte\Desktop\NeDL\Tempconversion\obj\Debug\net6.0\Tempconversion.csproj.AssemblyReference.cache
+C:\Users\DSchulte\Desktop\NeDL\Tempconversion\obj\Debug\net6.0\Tempconversion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DSchulte\Desktop\NeDL\Tempconversion\obj\Debug\net6.0\Tempconversion.AssemblyInfoInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Tempconversion\obj\Debug\net6.0\Tempconversion.AssemblyInfo.cs
+C:\Users\DSchulte\Desktop\NeDL\Tempconversion\obj\Debug\net6.0\Tempconversion.csproj.CoreCompileInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Tempconversion\obj\Debug\net6.0\Tempconversion.dll
+C:\Users\DSchulte\Desktop\NeDL\Tempconversion\obj\Debug\net6.0\ref\Tempconversion.dll
+C:\Users\DSchulte\Desktop\NeDL\Tempconversion\obj\Debug\net6.0\Tempconversion.pdb
+C:\Users\DSchulte\Desktop\NeDL\Tempconversion\obj\Debug\net6.0\Tempconversion.genruntimeconfig.cache

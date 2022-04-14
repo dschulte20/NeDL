@@ -1,0 +1,15 @@
+C:\Users\DSchulte\Desktop\NeDL\Competencycheck\bin\Debug\net6.0\Competencycheck.exe
+C:\Users\DSchulte\Desktop\NeDL\Competencycheck\bin\Debug\net6.0\Competencycheck.deps.json
+C:\Users\DSchulte\Desktop\NeDL\Competencycheck\bin\Debug\net6.0\Competencycheck.runtimeconfig.json
+C:\Users\DSchulte\Desktop\NeDL\Competencycheck\bin\Debug\net6.0\Competencycheck.dll
+C:\Users\DSchulte\Desktop\NeDL\Competencycheck\bin\Debug\net6.0\ref\Competencycheck.dll
+C:\Users\DSchulte\Desktop\NeDL\Competencycheck\bin\Debug\net6.0\Competencycheck.pdb
+C:\Users\DSchulte\Desktop\NeDL\Competencycheck\obj\Debug\net6.0\Competencycheck.csproj.AssemblyReference.cache
+C:\Users\DSchulte\Desktop\NeDL\Competencycheck\obj\Debug\net6.0\Competencycheck.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DSchulte\Desktop\NeDL\Competencycheck\obj\Debug\net6.0\Competencycheck.AssemblyInfoInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Competencycheck\obj\Debug\net6.0\Competencycheck.AssemblyInfo.cs
+C:\Users\DSchulte\Desktop\NeDL\Competencycheck\obj\Debug\net6.0\Competencycheck.csproj.CoreCompileInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Competencycheck\obj\Debug\net6.0\Competencycheck.dll
+C:\Users\DSchulte\Desktop\NeDL\Competencycheck\obj\Debug\net6.0\ref\Competencycheck.dll
+C:\Users\DSchulte\Desktop\NeDL\Competencycheck\obj\Debug\net6.0\Competencycheck.pdb
+C:\Users\DSchulte\Desktop\NeDL\Competencycheck\obj\Debug\net6.0\Competencycheck.genruntimeconfig.cache

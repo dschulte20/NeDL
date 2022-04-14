@@ -1,0 +1,15 @@
+C:\Users\DSchulte\Desktop\NeDL\Minmaxaverage\bin\Debug\net6.0\Minmaxaverage.exe
+C:\Users\DSchulte\Desktop\NeDL\Minmaxaverage\bin\Debug\net6.0\Minmaxaverage.deps.json
+C:\Users\DSchulte\Desktop\NeDL\Minmaxaverage\bin\Debug\net6.0\Minmaxaverage.runtimeconfig.json
+C:\Users\DSchulte\Desktop\NeDL\Minmaxaverage\bin\Debug\net6.0\Minmaxaverage.dll
+C:\Users\DSchulte\Desktop\NeDL\Minmaxaverage\bin\Debug\net6.0\ref\Minmaxaverage.dll
+C:\Users\DSchulte\Desktop\NeDL\Minmaxaverage\bin\Debug\net6.0\Minmaxaverage.pdb
+C:\Users\DSchulte\Desktop\NeDL\Minmaxaverage\obj\Debug\net6.0\Minmaxaverage.csproj.AssemblyReference.cache
+C:\Users\DSchulte\Desktop\NeDL\Minmaxaverage\obj\Debug\net6.0\Minmaxaverage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DSchulte\Desktop\NeDL\Minmaxaverage\obj\Debug\net6.0\Minmaxaverage.AssemblyInfoInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Minmaxaverage\obj\Debug\net6.0\Minmaxaverage.AssemblyInfo.cs
+C:\Users\DSchulte\Desktop\NeDL\Minmaxaverage\obj\Debug\net6.0\Minmaxaverage.csproj.CoreCompileInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Minmaxaverage\obj\Debug\net6.0\Minmaxaverage.dll
+C:\Users\DSchulte\Desktop\NeDL\Minmaxaverage\obj\Debug\net6.0\ref\Minmaxaverage.dll
+C:\Users\DSchulte\Desktop\NeDL\Minmaxaverage\obj\Debug\net6.0\Minmaxaverage.pdb
+C:\Users\DSchulte\Desktop\NeDL\Minmaxaverage\obj\Debug\net6.0\Minmaxaverage.genruntimeconfig.cache

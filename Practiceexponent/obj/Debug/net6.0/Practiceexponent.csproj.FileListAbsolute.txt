@@ -1,0 +1,15 @@
+C:\Users\DSchulte\Desktop\NeDL\Practiceexponent\bin\Debug\net6.0\Practiceexponent.exe
+C:\Users\DSchulte\Desktop\NeDL\Practiceexponent\bin\Debug\net6.0\Practiceexponent.deps.json
+C:\Users\DSchulte\Desktop\NeDL\Practiceexponent\bin\Debug\net6.0\Practiceexponent.runtimeconfig.json
+C:\Users\DSchulte\Desktop\NeDL\Practiceexponent\bin\Debug\net6.0\Practiceexponent.dll
+C:\Users\DSchulte\Desktop\NeDL\Practiceexponent\bin\Debug\net6.0\ref\Practiceexponent.dll
+C:\Users\DSchulte\Desktop\NeDL\Practiceexponent\bin\Debug\net6.0\Practiceexponent.pdb
+C:\Users\DSchulte\Desktop\NeDL\Practiceexponent\obj\Debug\net6.0\Practiceexponent.csproj.AssemblyReference.cache
+C:\Users\DSchulte\Desktop\NeDL\Practiceexponent\obj\Debug\net6.0\Practiceexponent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DSchulte\Desktop\NeDL\Practiceexponent\obj\Debug\net6.0\Practiceexponent.AssemblyInfoInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Practiceexponent\obj\Debug\net6.0\Practiceexponent.AssemblyInfo.cs
+C:\Users\DSchulte\Desktop\NeDL\Practiceexponent\obj\Debug\net6.0\Practiceexponent.csproj.CoreCompileInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Practiceexponent\obj\Debug\net6.0\Practiceexponent.dll
+C:\Users\DSchulte\Desktop\NeDL\Practiceexponent\obj\Debug\net6.0\ref\Practiceexponent.dll
+C:\Users\DSchulte\Desktop\NeDL\Practiceexponent\obj\Debug\net6.0\Practiceexponent.pdb
+C:\Users\DSchulte\Desktop\NeDL\Practiceexponent\obj\Debug\net6.0\Practiceexponent.genruntimeconfig.cache
