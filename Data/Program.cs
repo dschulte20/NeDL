@@ -129,7 +129,7 @@ namespace MyCRUD
              }
              else
              {
-               Console.WriteLine("The name is def not on the list.");
+               Console.WriteLine("The name is not on the list.");
              }
             }
         //else if the option is a D or d then delete the name in the array (if it's there)     
