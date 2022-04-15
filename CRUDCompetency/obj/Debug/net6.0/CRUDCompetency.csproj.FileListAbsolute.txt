@@ -1,0 +1,15 @@
+C:\Users\DSchulte\Desktop\NeDL\CRUDCompetency\obj\Debug\net6.0\CRUDCompetency.csproj.AssemblyReference.cache
+C:\Users\DSchulte\Desktop\NeDL\CRUDCompetency\obj\Debug\net6.0\CRUDCompetency.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DSchulte\Desktop\NeDL\CRUDCompetency\obj\Debug\net6.0\CRUDCompetency.AssemblyInfoInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\CRUDCompetency\obj\Debug\net6.0\CRUDCompetency.AssemblyInfo.cs
+C:\Users\DSchulte\Desktop\NeDL\CRUDCompetency\obj\Debug\net6.0\CRUDCompetency.csproj.CoreCompileInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\CRUDCompetency\bin\Debug\net6.0\CRUDCompetency.exe
+C:\Users\DSchulte\Desktop\NeDL\CRUDCompetency\bin\Debug\net6.0\CRUDCompetency.deps.json
+C:\Users\DSchulte\Desktop\NeDL\CRUDCompetency\bin\Debug\net6.0\CRUDCompetency.runtimeconfig.json
+C:\Users\DSchulte\Desktop\NeDL\CRUDCompetency\bin\Debug\net6.0\CRUDCompetency.dll
+C:\Users\DSchulte\Desktop\NeDL\CRUDCompetency\bin\Debug\net6.0\ref\CRUDCompetency.dll
+C:\Users\DSchulte\Desktop\NeDL\CRUDCompetency\bin\Debug\net6.0\CRUDCompetency.pdb
+C:\Users\DSchulte\Desktop\NeDL\CRUDCompetency\obj\Debug\net6.0\CRUDCompetency.dll
+C:\Users\DSchulte\Desktop\NeDL\CRUDCompetency\obj\Debug\net6.0\ref\CRUDCompetency.dll
+C:\Users\DSchulte\Desktop\NeDL\CRUDCompetency\obj\Debug\net6.0\CRUDCompetency.pdb
+C:\Users\DSchulte\Desktop\NeDL\CRUDCompetency\obj\Debug\net6.0\CRUDCompetency.genruntimeconfig.cache
