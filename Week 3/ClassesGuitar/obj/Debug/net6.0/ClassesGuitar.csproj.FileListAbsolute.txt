@@ -1,0 +1,15 @@
+C:\Users\DSchulte\Desktop\NeDL\Week 3\ClassesGuitar\obj\Debug\net6.0\ClassesGuitar.csproj.AssemblyReference.cache
+C:\Users\DSchulte\Desktop\NeDL\Week 3\ClassesGuitar\obj\Debug\net6.0\ClassesGuitar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DSchulte\Desktop\NeDL\Week 3\ClassesGuitar\obj\Debug\net6.0\ClassesGuitar.AssemblyInfoInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Week 3\ClassesGuitar\obj\Debug\net6.0\ClassesGuitar.AssemblyInfo.cs
+C:\Users\DSchulte\Desktop\NeDL\Week 3\ClassesGuitar\obj\Debug\net6.0\ClassesGuitar.csproj.CoreCompileInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Week 3\ClassesGuitar\bin\Debug\net6.0\ClassesGuitar.exe
+C:\Users\DSchulte\Desktop\NeDL\Week 3\ClassesGuitar\bin\Debug\net6.0\ClassesGuitar.deps.json
+C:\Users\DSchulte\Desktop\NeDL\Week 3\ClassesGuitar\bin\Debug\net6.0\ClassesGuitar.runtimeconfig.json
+C:\Users\DSchulte\Desktop\NeDL\Week 3\ClassesGuitar\bin\Debug\net6.0\ClassesGuitar.dll
+C:\Users\DSchulte\Desktop\NeDL\Week 3\ClassesGuitar\bin\Debug\net6.0\ref\ClassesGuitar.dll
+C:\Users\DSchulte\Desktop\NeDL\Week 3\ClassesGuitar\bin\Debug\net6.0\ClassesGuitar.pdb
+C:\Users\DSchulte\Desktop\NeDL\Week 3\ClassesGuitar\obj\Debug\net6.0\ClassesGuitar.dll
+C:\Users\DSchulte\Desktop\NeDL\Week 3\ClassesGuitar\obj\Debug\net6.0\ref\ClassesGuitar.dll
+C:\Users\DSchulte\Desktop\NeDL\Week 3\ClassesGuitar\obj\Debug\net6.0\ClassesGuitar.pdb
+C:\Users\DSchulte\Desktop\NeDL\Week 3\ClassesGuitar\obj\Debug\net6.0\ClassesGuitar.genruntimeconfig.cache
