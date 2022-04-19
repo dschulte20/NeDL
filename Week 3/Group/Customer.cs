@@ -1,13 +1,13 @@
 using System;
 
-namespace Customer
+namespace Group
 {
 
-  class Customer // Base class
+  class Customer: People // Base class
   {
-    protected string companyName;
-    protected string serviceProvided;
-    protected string departmentWork;
+    public string companyName;
+    public string serviceProvided;
+    public string departmentWork;
     public Customer () 
     {
      companyName = null;

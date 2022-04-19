@@ -1,9 +1,9 @@
 using System;
 
-namespace Employee
+namespace Group
 {
 
-  class Employee // Base class
+  class Employee: People // Base class
   {
     public string department;
     public string jobTitle;
@@ -14,7 +14,7 @@ namespace Employee
      jobTitle = null;
      employmentStatus = null;   
     }
-    public Employee (string aDepartment, string aJobTitle, string aEmploymentStatus)
+    public Employee (string aLastName, string aFirstName, string aEmail, string aDepartment, string aJobTitle, string aEmploymentStatus) : base(aLastName, aFirstName, aEmail)
     {
      department = aDepartment;
      jobTitle = aJobTitle;
@@ -22,7 +22,7 @@ namespace Employee
     }
     public override string ToString ()
     {
-    return "This person's department and title is" + department + " " + jobTitle + "." + "Their employment status is" + employmentStatus + ".";
+    return lastName + "This person's department and title is" + department + " " + jobTitle + "." + "Their employment status is" + employmentStatus + ".";
     }
   }
 }

@@ -3,3 +3,13 @@ C:\Users\DSchulte\Desktop\NeDL\Week 3\Group\obj\Debug\net6.0\Group.GeneratedMSBu
 C:\Users\DSchulte\Desktop\NeDL\Week 3\Group\obj\Debug\net6.0\Group.AssemblyInfoInputs.cache
 C:\Users\DSchulte\Desktop\NeDL\Week 3\Group\obj\Debug\net6.0\Group.AssemblyInfo.cs
 C:\Users\DSchulte\Desktop\NeDL\Week 3\Group\obj\Debug\net6.0\Group.csproj.CoreCompileInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Week 3\Group\bin\Debug\net6.0\Group.exe
+C:\Users\DSchulte\Desktop\NeDL\Week 3\Group\bin\Debug\net6.0\Group.deps.json
+C:\Users\DSchulte\Desktop\NeDL\Week 3\Group\bin\Debug\net6.0\Group.runtimeconfig.json
+C:\Users\DSchulte\Desktop\NeDL\Week 3\Group\bin\Debug\net6.0\Group.dll
+C:\Users\DSchulte\Desktop\NeDL\Week 3\Group\bin\Debug\net6.0\ref\Group.dll
+C:\Users\DSchulte\Desktop\NeDL\Week 3\Group\bin\Debug\net6.0\Group.pdb
+C:\Users\DSchulte\Desktop\NeDL\Week 3\Group\obj\Debug\net6.0\Group.dll
+C:\Users\DSchulte\Desktop\NeDL\Week 3\Group\obj\Debug\net6.0\ref\Group.dll
+C:\Users\DSchulte\Desktop\NeDL\Week 3\Group\obj\Debug\net6.0\Group.pdb
+C:\Users\DSchulte\Desktop\NeDL\Week 3\Group\obj\Debug\net6.0\Group.genruntimeconfig.cache

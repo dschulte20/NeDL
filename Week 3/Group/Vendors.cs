@@ -1,15 +1,15 @@
 using System;
 
-namespace Vendor
+namespace Group
 {
 
-  class Vendor // Base class
+  class Vendor: People // Base class
   {
     private string companyNameV;
     public string CompanyNameV
     {get; set;}
-    protected string serviceProvidedV;
-    protected string departmentWorkV;
+    public string serviceProvidedV;
+    public string departmentWorkV;
     public Vendor () 
     {
      companyNameV = null;
