@@ -1,0 +1,15 @@
+C:\Users\DSchulte\Desktop\NeDL\Week 3\CompBonus\obj\Debug\net6.0\CompBonus.csproj.AssemblyReference.cache
+C:\Users\DSchulte\Desktop\NeDL\Week 3\CompBonus\obj\Debug\net6.0\CompBonus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DSchulte\Desktop\NeDL\Week 3\CompBonus\obj\Debug\net6.0\CompBonus.AssemblyInfoInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Week 3\CompBonus\obj\Debug\net6.0\CompBonus.AssemblyInfo.cs
+C:\Users\DSchulte\Desktop\NeDL\Week 3\CompBonus\obj\Debug\net6.0\CompBonus.csproj.CoreCompileInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Week 3\CompBonus\bin\Debug\net6.0\CompBonus.exe
+C:\Users\DSchulte\Desktop\NeDL\Week 3\CompBonus\bin\Debug\net6.0\CompBonus.deps.json
+C:\Users\DSchulte\Desktop\NeDL\Week 3\CompBonus\bin\Debug\net6.0\CompBonus.runtimeconfig.json
+C:\Users\DSchulte\Desktop\NeDL\Week 3\CompBonus\bin\Debug\net6.0\CompBonus.dll
+C:\Users\DSchulte\Desktop\NeDL\Week 3\CompBonus\bin\Debug\net6.0\ref\CompBonus.dll
+C:\Users\DSchulte\Desktop\NeDL\Week 3\CompBonus\bin\Debug\net6.0\CompBonus.pdb
+C:\Users\DSchulte\Desktop\NeDL\Week 3\CompBonus\obj\Debug\net6.0\CompBonus.dll
+C:\Users\DSchulte\Desktop\NeDL\Week 3\CompBonus\obj\Debug\net6.0\ref\CompBonus.dll
+C:\Users\DSchulte\Desktop\NeDL\Week 3\CompBonus\obj\Debug\net6.0\CompBonus.pdb
+C:\Users\DSchulte\Desktop\NeDL\Week 3\CompBonus\obj\Debug\net6.0\CompBonus.genruntimeconfig.cache

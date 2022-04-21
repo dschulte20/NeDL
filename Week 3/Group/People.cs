@@ -2,7 +2,7 @@
 
 namespace Group
 {
-  class People // Base class
+  class People // Parent class
   {
     public string firstName;
     public string lastName;
@@ -21,7 +21,7 @@ namespace Group
     }
     public override string ToString ()
     {
-    return "This person's name is" + firstName + " " + lastName + "." + "Their contact information is" + email + ".";
+    return "Name: " + firstName + " " + lastName + " Email: "+ email;
     }
   }
 }

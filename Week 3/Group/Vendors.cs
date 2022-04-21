@@ -3,11 +3,9 @@ using System;
 namespace Group
 {
 
-  class Vendor: People // Base class
+  class Vendor: People // child class
   {
-    private string companyNameV;
-    public string CompanyNameV
-    {get; set;}
+    public string companyNameV;
     public string serviceProvidedV;
     public string departmentWorkV;
     public Vendor () 
@@ -16,15 +14,15 @@ namespace Group
      serviceProvidedV = null;
      departmentWorkV = null;   
     }
-    //public Customer (string aCompanyNameV, string aServiceProvidedV, string aDepartmentWorkV)
-    //{
-     //companyNameV = aCompanyNameV;
-     //serviceProvidedV = aServiceProvidedV;
-     //departmentWorkV = aDepartmentWorkV;
-    //}
+    public Vendor (string aLastName, string aFirstName, string aEmail, string aCompanyNameV, string aServiceProvidedV, string aDepartmentWorkV): base(aLastName, aFirstName, aEmail)
+    {
+     companyNameV = aCompanyNameV;
+     serviceProvidedV = aServiceProvidedV;
+     departmentWorkV = aDepartmentWorkV;
+    }
     public override string ToString ()
     {
-    return "This Vendor's department and workplace is" + departmentWorkV + " " + companyNameV + "." + "The service provided is" + serviceProvidedV + ".";
+    return "Name: " + firstName + " " + lastName + " Email: "+ email + " Company: " + companyNameV + " Service: " + serviceProvidedV + " Department: " + departmentWorkV;
     }
   }
 }

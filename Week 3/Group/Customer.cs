@@ -3,7 +3,7 @@ using System;
 namespace Group
 {
 
-  class Customer: People // Base class
+  class Customer: People // child class
   {
     public string companyName;
     public string serviceProvided;
@@ -14,7 +14,7 @@ namespace Group
      serviceProvided = null;
      departmentWork = null;   
     }
-    public Customer (string aCompanyName, string aServiceProvided, string aDepartmentWork)
+    public Customer (string aLastName, string aFirstName, string aEmail, string aCompanyName, string aServiceProvided, string aDepartmentWork) : base(aLastName, aFirstName, aEmail)
     {
      companyName = aCompanyName;
      serviceProvided = aServiceProvided;
@@ -22,7 +22,7 @@ namespace Group
     }
     public override string ToString ()
     {
-    return "This customer's department and workplace is" + departmentWork + " " + companyName + "." + "The service provided is" + serviceProvided + ".";
+    return "Name: " + firstName + " " + lastName + " Email: "+ email + " Company: " + companyName + " Service: " + serviceProvided + " Department: " + departmentWork ;
     }
   }
 }

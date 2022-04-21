@@ -3,7 +3,7 @@ using System;
 namespace Group
 {
 
-  class Employee: People // Base class
+  class Employee: People // child class
   {
     public string department;
     public string jobTitle;
@@ -22,7 +22,7 @@ namespace Group
     }
     public override string ToString ()
     {
-    return lastName + "This person's department and title is" + department + " " + jobTitle + "." + "Their employment status is" + employmentStatus + ".";
+    return "Name: " + firstName + " " + lastName + " Email: "+ email + " Title: " + jobTitle + " Department: " + department + " Employment Status: " + employmentStatus;
     }
   }
 }
