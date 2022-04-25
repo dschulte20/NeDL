@@ -5,18 +5,18 @@ namespace Group
 
   class Annual: Employee // child class
   {
-    private float aSalary;
+    private double aSalary;
     public Annual () 
     {
     aSalary = 0; 
     }
-    public Annual (string aLastName, string aFirstName, string aEmployeeType, float aASalary) : base(aLastName, aFirstName, aEmployeeType)
+    public Annual (string aLastName, string aFirstName, string aEmployeeType, double aASalary) : base(aLastName, aFirstName, aEmployeeType)
     {
     aSalary = aASalary;
     }
     public override string ToString ()
     {
-    return "Name: " + firstName + " " + lastName + " Hourly/Salary: "+ employeeType + " Salary: " + aSalary + " Bonus: " + (aSalary*.1);
+    return base.ToString()+ " Salary: $" + aSalary + " Bonus: $" + (aSalary*.1);
     }
   }
 }

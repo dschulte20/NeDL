@@ -6,21 +6,31 @@ namespace Group
   {
       static void Main (string[] args)
       {
-        //Employee testEmployee = new Employee("Steph", "Smith", "S");
-        //Console.WriteLine(testEmployee);
-        //Hourly testHourly = new Hourly("Steve", "Smith", "H", "12.25");
-        //Console.WriteLine(testHourly); 
-        //Annual testAnnual = new Annual("Rick", "Rambus", "S", "35000");
-        //Console.WriteLine(testAnnual); 
+        List<Employee> employeeList = new List<Employee>();
 
-            //Declare variables
-            bool userChoice;
-            string userChoiceString;
-            string[] salaryArray = new string[25];
-            //repeat the main loop
+        Employee testEmployee = new Employee("Steph", "Smith", "S");
+        employeeList.Add(testEmployee);
+        Console.WriteLine(testEmployee);
+        Hourly testHourly = new Hourly("Steve", "Smith", "H", 12);
+        Console.WriteLine(testHourly); 
+        employeeList.Add(testHourly);
+        Annual testAnnual = new Annual("Rick", "Rambus", "S", 35000);
+        employeeList.Add(testAnnual);
+        Console.WriteLine(testAnnual); 
+
+        foreach (Employee anEmployee in employeeList)
+            {
+            Console.WriteLine(anEmployee);
+            }// end foreach  
+
+        //Declare variables
+        bool userChoice;
+        string userChoiceString;
+        string[] salaryEmployee = new string[25];
+        string[] hourlyEmployee = new string[25];
+        //repeat the main loop
             do
             {
-
                 // Get a valid input
                 do
                 {
@@ -64,106 +74,96 @@ namespace Group
                     while ((n = sr.ReadLine()) != null)
                     {
                         Console.WriteLine(n);
-                        salaryArray[indexN] = n;
+                        salaryEmployee[indexN] = n;
                         indexN = indexN + 1;
                     }
                     }
+                    int index = 0; //index fr my name array
+                    using (StreamReader sr = File.OpenText("hourly.txt"))
+                    {
+                    string n = "";
+                    Console.WriteLine("Here is the content of the file hourly.txt:");
+                    while ((n = sr.ReadLine()) != null)
+                    {
+                        Console.WriteLine(n);
+                        hourlyEmployee[index] = n;
+                        index = index + 1;
+                    }
+                    }
                 }
-                //else if the option is an S or s then store the array into the textfile
+        //else if the option is an S or s then store the array into the textfile
                 
-                    else if (userChoiceString == "S"|| userChoiceString == "s" )
+        else if (userChoiceString == "S"|| userChoiceString == "s" )
                     {
-                    File.WriteAllLines("salary.txt", salaryArray);
-
+                    File.WriteAllLines("salary.txt", salaryEmployee);
+                    File.WriteAllLines("hourly.txt", hourlyEmployee);
                     }
-                //else if the option is a C or c then add a name to the array (if there's room)
-                    else if (userChoiceString == "C"|| userChoiceString == "c" )
+        //else if the option is a C or c then add a name to the array (if there's room)
+        else if (userChoiceString == "C"|| userChoiceString == "c" )
                     {
-                        Console.WriteLine("Please enter the name of the restaraunt you would like to add.");
-                        string createName = Console.ReadLine();
-                        bool found = false;
-
-                        for (int i = 0; i < salaryArray.Length; i++)
+        Console.Write("Please enter an employee last name to add: ");
+        string newLastName = Console.ReadLine();
+        Console.Write("Please enter an employee first name to add: ");
+        string newFirstName = Console.ReadLine();
+        Console.Write("Please enter an employee type to add (S or H): ");
+        string newEmployeeType = Console.ReadLine();
+        switch (newEmployeeType)
+        {
+            case "S":
+            case "s":
+                Console.Write("Please enter an annual salary: ");
+                double newSalary = Convert.ToDouble(Console.ReadLine());
+                employeeList.Add(new Annual(newLastName, newFirstName, newEmployeeType, newSalary));
+                Console.WriteLine("Salary employee added.  Printing out new list.");
+            break;
+            case "H":
+            case "h":
+                Console.Write("Please enter an hourly salary: ");
+                double newHourly = Convert.ToDouble(Console.ReadLine());
+                employeeList.Add(new Hourly(newLastName, newFirstName, newEmployeeType, newHourly));
+                Console.WriteLine("Salary employee added. Printing out new list.");            
+            break;
+            default:
+                Console.WriteLine("Invalid character. Nothing was added.");
+            break;
+        }
+        }
+        // print the list again
+        
+        //else if the option is a R or r then update a name in the array (if it's there)   
+        else if (userChoiceString == "R" || userChoiceString == "r" )
+        {
+        foreach (Employee anEmployee in employeeList)
+                Console.WriteLine(anEmployee);               
+        }
+        //else if the option is a U or u then update a name in the array (if it's there)           
+        else if (userChoiceString == "U"|| userChoiceString == "u" )
+                    {
+                    Console.WriteLine("You are in the U/u menu.");            
+                    }
+        //else if the option is a D or d then delete the name in the array (if it's there)     
+        else if (userChoiceString == "D"|| userChoiceString == "d" )
+                    {
+                    Console.Write("Please enter an employee last name to delete: ");
+                    string findLastName = Console.ReadLine();
+                    Console.Write("Please enter an employee first name to delete: ");
+                    string findFirstName = Console.ReadLine();
+                    bool found = false;
+                    for (int index = 0; index < employeeList.Count; index++)
+                    {
+                        if ((employeeList[index].lastName == findLastName) && (employeeList[index].firstName == findFirstName))
                         {
-                        if((salaryArray[i] == "") && found == false)
-                            {
-                            salaryArray[i] = createName;
+                            employeeList.RemoveAt(index);
                             found = true;
-                            Console.WriteLine(salaryArray[i]);
-                            }
-                        }//end for loop
-                        if (!found)       
-                        {
-                        Console.WriteLine("There is no space to add.");
-                        }//end if
-                        {
-                        Console.WriteLine("Please enter the restaraunt rating. The rating must be between 0 and 5");
-                        string createNameR = Console.ReadLine();
-                        //while (createNameR >= 5)
-                        {
-                        //Console.WriteLine("You must enter a rating between 0 and 5.");
                         }
-                        }
-                    }
-                //else if the option is a U or u then update a name in the array (if it's there)           
-                else if (userChoiceString == "U"|| userChoiceString == "u" )
-                    {
-                    Console.WriteLine("What name would you like to update?");
-                    string whichName = Console.ReadLine();
-
-                    bool contains = false;
-                    for (int i = 0; i < salaryArray.Length; i++)
-                    {
-                    if (whichName == salaryArray[i])
-                    {
-                        contains = true;
-                        Console.WriteLine("Please enter the new name.");
-                        string newName = Console.ReadLine();
-                        salaryArray[i] = newName;
-                        Console.WriteLine(whichName + "has been updated."); 
-                    }
-                    }
-                    if (contains == true)
-                    {
-                    for (int index = 0; index < 10; index++)
-                    {
-                        Console.WriteLine(salaryArray[index]);
-                    }
-                    }
+                    }  // end foreach  
+                    if (found)
+                        Console.WriteLine("Employee was deleted.");
                     else
-                    {
-                    Console.WriteLine("The name is not on the list.");
-                    }
-                    }
-                //else if the option is a D or d then delete the name in the array (if it's there)     
-                    else if (userChoiceString == "D"|| userChoiceString == "d" )
-                    {
-                    {
-                    Console.WriteLine("What name would you like to delete?");
-                    string whichDelete = Console.ReadLine();
-
-                    bool contains = false;
-                    for (int i = 0; i < salaryArray.Length; i++)
-                    {
-                    if (whichDelete == salaryArray[i])
-                    {
-                        contains = true;
-                        salaryArray[i] = "";
-                        Console.WriteLine(whichDelete + " has been deleted."); 
-                    }
-                    }
-                    if (contains == true)
-                    {
-                    for (int index = 0; index < 10; index++)
-                    {
-                        Console.WriteLine(salaryArray[index]);
-                    }
-                    }
-                    else
-                    {
-                    Console.WriteLine("The name is not on the list.");
-                    }
-                    }
+                        Console.WriteLine("Employee not found.");
+                    // print the list again
+                    foreach (Employee anEmployee in employeeList)
+                        Console.WriteLine(anEmployee);
                     }
                 //else if the option is a Q or q then quit the program            
                 else if (userChoiceString == "Q"|| userChoiceString == "q" )
