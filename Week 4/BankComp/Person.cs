@@ -2,7 +2,7 @@ using System;
 
 namespace BankAccount
 {
-  class Person // Parent class
+  abstract class Person // Parent class
   {
     public string accountId;
     public string accountType;
@@ -23,10 +23,8 @@ namespace BankAccount
     {
     balance = newDeposit + balance;
     }  
-    public void Withdrawal(double newWithdrawal)
-    {
-    balance = balance - newWithdrawal;
-    }
+    public abstract void Withdrawal(double newWithdrawal);
+
     public override string ToString ()
     {
     return "Account ID: " + accountId + " | Account Type: " + accountType + " | Balance: "+ balance;

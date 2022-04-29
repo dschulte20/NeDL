@@ -17,6 +17,10 @@ namespace BankAccount
     {
     return cAnnualFee * balance;
     }
+    public override void Withdrawal(double newWithdrawal)
+    {
+    balance = balance - newWithdrawal;
+    }
     public override string ToString ()
     {
     return base.ToString()+ " | Annual Fee: " + cAnnualFee + " | Fee Ammount: $" + (GetFee());

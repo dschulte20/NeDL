@@ -17,13 +17,17 @@ namespace BankAccount
     cdEarlyWithdrawal = aCdEarlyWithdrawal;
     }
     public double GetFee() // interface method
-    {
-    return balance * cdEarlyWithdrawal;
-    }
+      {
+      return balance * cdEarlyWithdrawal;
+      }
     public double GetInterest() // interface method
-    {
-    return balance * cdAnnualInterest;
-    }
+      {
+      return balance * cdAnnualInterest;
+      }
+    public override void Withdrawal(double newWithdrawal)
+      {
+      balance = balance - newWithdrawal - (newWithdrawal*cdEarlyWithdrawal);
+      }
     public override string ToString ()
     {
     return base.ToString()+ " | Early Withdrawal Penalty: " + cdEarlyWithdrawal + " | Early Withdrawal Fee Ammount: $" + (GetFee()) + " | Annual Interest: " + cdAnnualInterest + "| Interest Earned: $" + (GetInterest());

@@ -9,13 +9,13 @@ namespace BankAccount
       {
         List<Person> accountList = new List<Person>();
 
-        Person testPerson = new Person("1234", "C", 15000);
-        accountList.Add(testPerson);
-        Checking testChecking = new Checking("2654", "C", 8000, .01); 
+        //Person testPerson = new Person("1234", "Checking", 15000);
+        //accountList.Add(testPerson);
+        Checking testChecking = new Checking("2654", "Checking", 8000, .01); 
         accountList.Add(testChecking);    
         Cd testCd = new Cd("3589", "CD", 4000, .01, .05); 
         accountList.Add(testCd);   
-        Savings testSavings = new Savings("4985", "S", 15000, .07); 
+        Savings testSavings = new Savings("4985", "Savings", 15000, .07); 
         accountList.Add(testSavings); 
             foreach (Person aPerson in accountList)
             {
@@ -75,6 +75,12 @@ namespace BankAccount
                   Console.WriteLine(accountList[index]);
                   Console.Write("Please enter the amount to deposit: ");
                   double DNewAmount = Convert.ToDouble(Console.ReadLine());
+                  
+                  if (DNewAmount <= 0)
+                    {//Error prompt if user enters anything less than 1
+                    Console.WriteLine("You must enter a number greater than 0.");
+                    DNewAmount = Convert.ToDouble(Console.ReadLine());
+                    }
                   accountList[index].Deposit(DNewAmount);
                   found = true;
                   Console.WriteLine("Account updated!");
@@ -97,8 +103,13 @@ namespace BankAccount
                   Console.Write("Account found! "); 
                   Console.WriteLine(accountList[index]);
                   Console.Write("Please enter the amount you would like to withdraw: ");
-                  Console.WriteLine(accountList[index]);
+                  
                   double WNewAmount = Convert.ToDouble(Console.ReadLine());
+                    if (WNewAmount <= 0)
+                    {//Error prompt if user enters anything less than 1
+                    Console.WriteLine("You must enter a number greater than 0.");
+                    WNewAmount = Convert.ToDouble(Console.ReadLine());
+                    }
                   accountList[index].Withdrawal(WNewAmount);
                   found = true;
                   Console.WriteLine("Account updated!");
