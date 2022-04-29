@@ -2,7 +2,7 @@ using System;
 
 namespace Group
 {
-  class Employee // Parent class
+  class Employee : IRate // Parent class
   {
     public string firstName;
     public string lastName;
@@ -18,6 +18,14 @@ namespace Group
      firstName = aFirstName;
      lastName = aLastName;
      employeeType = aEmployeeType;
+    }
+    public virtual void SetRate(double newRate)  // interface method
+    {
+    // nothing to do here
+    }
+    public virtual void SetType(string newType)  // interface method
+    {
+    employeeType = newType;
     }
     public override string ToString ()
     {

@@ -1,0 +1,26 @@
+using System;
+
+namespace BankAccount
+{
+  class Savings: Person, IGetInterest // child class
+  {
+    public double sAnnualInterest;
+    public Savings () 
+    {
+    sAnnualInterest = 0.00; 
+    }
+    public Savings (string aAccountId, string aAccountType, double aBalance, double aSAnnualInterest) : base(aAccountId, aAccountType, aBalance)
+    {
+    sAnnualInterest = aSAnnualInterest;
+    }
+    public double GetInterest() // interface method
+    {
+    return sAnnualInterest * balance;
+    }
+    public override string ToString ()
+    {
+    return base.ToString()+ " | Annual Interest: " + sAnnualInterest + " | Interest Ammount: $" + (GetInterest());
+    }
+  }
+}
+

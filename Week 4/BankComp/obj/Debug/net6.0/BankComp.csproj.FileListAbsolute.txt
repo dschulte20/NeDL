@@ -1,0 +1,15 @@
+C:\Users\DSchulte\Desktop\NeDL\Week 4\BankComp\bin\Debug\net6.0\BankComp.exe
+C:\Users\DSchulte\Desktop\NeDL\Week 4\BankComp\bin\Debug\net6.0\BankComp.deps.json
+C:\Users\DSchulte\Desktop\NeDL\Week 4\BankComp\bin\Debug\net6.0\BankComp.runtimeconfig.json
+C:\Users\DSchulte\Desktop\NeDL\Week 4\BankComp\bin\Debug\net6.0\BankComp.dll
+C:\Users\DSchulte\Desktop\NeDL\Week 4\BankComp\bin\Debug\net6.0\ref\BankComp.dll
+C:\Users\DSchulte\Desktop\NeDL\Week 4\BankComp\bin\Debug\net6.0\BankComp.pdb
+C:\Users\DSchulte\Desktop\NeDL\Week 4\BankComp\obj\Debug\net6.0\BankComp.csproj.AssemblyReference.cache
+C:\Users\DSchulte\Desktop\NeDL\Week 4\BankComp\obj\Debug\net6.0\BankComp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DSchulte\Desktop\NeDL\Week 4\BankComp\obj\Debug\net6.0\BankComp.AssemblyInfoInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Week 4\BankComp\obj\Debug\net6.0\BankComp.AssemblyInfo.cs
+C:\Users\DSchulte\Desktop\NeDL\Week 4\BankComp\obj\Debug\net6.0\BankComp.csproj.CoreCompileInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Week 4\BankComp\obj\Debug\net6.0\BankComp.dll
+C:\Users\DSchulte\Desktop\NeDL\Week 4\BankComp\obj\Debug\net6.0\ref\BankComp.dll
+C:\Users\DSchulte\Desktop\NeDL\Week 4\BankComp\obj\Debug\net6.0\BankComp.pdb
+C:\Users\DSchulte\Desktop\NeDL\Week 4\BankComp\obj\Debug\net6.0\BankComp.genruntimeconfig.cache

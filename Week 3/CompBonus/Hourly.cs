@@ -2,10 +2,10 @@ using System;
 
 namespace Group
 {
-
-  class Hourly: Employee // child class
+  class Hourly: Employee, IGetBonus // child class
+  //class Hourly : Employee, IRate
   {
-    private double hSalary;
+    public double hSalary;
     public Hourly () 
     {
      hSalary = 0; 
@@ -14,9 +14,17 @@ namespace Group
     {
     hSalary = aHSalary;
     }
+    public double GetBonus() // interface method
+    {
+    return hSalary * 80;
+    }
+    public override void SetRate(double newRate)  // interface method
+    {
+    hSalary = newRate;
+    }
     public override string ToString ()
     {
-    return base.ToString()+ " Salary: $" + hSalary + " Bonus: $" + (hSalary*80);
+    return base.ToString()+ " Salary: $" + hSalary + " Bonus: $" + (GetBonus());
     }
   }
 }

@@ -3,9 +3,9 @@ using System;
 namespace Group
 {
 
-  class Annual: Employee // child class
+  class Annual: Employee, IGetBonus // child class
   {
-    private double aSalary;
+    public double aSalary;
     public Annual () 
     {
     aSalary = 0; 
@@ -14,9 +14,17 @@ namespace Group
     {
     aSalary = aASalary;
     }
+    public double GetBonus() // interface method
+    {
+    return aSalary * .1;
+    }
+    public override void SetRate(double newRate)  // interface method
+    {
+    aSalary = newRate;
+    }
     public override string ToString ()
     {
-    return base.ToString()+ " Salary: $" + aSalary + " Bonus: $" + (aSalary*.1);
+    return base.ToString()+ " Salary: $" + aSalary + " Bonus: $" + (GetBonus());
     }
   }
 }

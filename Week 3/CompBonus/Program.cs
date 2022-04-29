@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Group
 {
@@ -16,7 +17,7 @@ namespace Group
         employeeList.Add(testHourly);
         Annual testAnnual = new Annual("Rick", "Rambus", "S", 35000);
         employeeList.Add(testAnnual);
-        Console.WriteLine(testAnnual); 
+        Console.WriteLine(testAnnual);
 
         foreach (Employee anEmployee in employeeList)
             {
@@ -42,10 +43,10 @@ namespace Group
                     Console.WriteLine("What would you like to do?");
                     Console.WriteLine("O: Open the data file into an array.");
                     Console.WriteLine("S: Save the array to the data file.");
-                    Console.WriteLine("C: Add a name to the array.");
-                    Console.WriteLine("R: Read the array.");
-                    Console.WriteLine("U: Update a name in the array.");
-                    Console.WriteLine("D: Delete a name from the array.");
+                    Console.WriteLine("C: Add an employee to the list.");
+                    Console.WriteLine("R: Print the employee list.");
+                    Console.WriteLine("U: Update an employee pay rate.");
+                    Console.WriteLine("D: Delete an employee from the list.");
                     Console.WriteLine("Q: Quit the program.");
                         
                     //Get a valid user option 
@@ -127,6 +128,8 @@ namespace Group
                 Console.WriteLine("Invalid character. Nothing was added.");
             break;
         }
+                foreach (Employee anEmployee in employeeList)
+                Console.WriteLine(anEmployee);
         }
         // print the list again
         
@@ -138,8 +141,36 @@ namespace Group
         }
         //else if the option is a U or u then update a name in the array (if it's there)           
         else if (userChoiceString == "U"|| userChoiceString == "u" )
-                    {
-                    Console.WriteLine("You are in the U/u menu.");            
+            {
+            Console.Write("Please enter an employee last name to update: ");
+            string findLastName = Console.ReadLine();
+            Console.Write("Please enter an employee first name to update: ");
+            string findFirstName = Console.ReadLine();
+            bool found = false;
+            
+            for (int index = 0; index < employeeList.Count; index++)
+            {
+            if ((employeeList[index].lastName == findLastName) && (employeeList[index].firstName == findFirstName))
+                {
+
+                Console.Write("Employee found! Please enter an employee type to update (S or H): ");
+                string newType = (Console.ReadLine());
+                employeeList[index].SetType(newType);
+                found = true;
+                Console.Write("Please enter the new amount:");
+                double newAmount = Convert.ToDouble(Console.ReadLine());
+                employeeList[index].SetRate(newAmount);
+                found = true;
+                }
+            }// end foreach  
+               
+        if (found)
+            Console.WriteLine("Employee was updated. I hope that is what you wanted!");
+        else
+            Console.WriteLine("Employee not found.  No one was updated.");
+        // print the list again
+        foreach (Employee anEmployee in employeeList)
+                Console.WriteLine(anEmployee);
                     }
         //else if the option is a D or d then delete the name in the array (if it's there)     
         else if (userChoiceString == "D"|| userChoiceString == "d" )
