@@ -2,7 +2,7 @@ using System;
 
 namespace BankAccount
 {
-  class Checking: Person, IGetFee // child class
+  class Checking: Account, IGetFee // child class
   {
     public double cAnnualFee;
     public Checking () 

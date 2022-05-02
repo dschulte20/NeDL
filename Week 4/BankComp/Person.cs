@@ -2,18 +2,18 @@ using System;
 
 namespace BankAccount
 {
-  abstract class Person // Parent class
+  abstract class Account // Parent class
   {
     public string accountId;
     public string accountType;
     public double balance;  
-    public Person () 
+    public Account () 
     {
      accountId = null;
      accountType = null;
      balance = 0;   
     }
-    public Person (string aAccountId, string aAccountType, double aBalance)
+    public Account (string aAccountId, string aAccountType, double aBalance)
     {
      accountId = aAccountId;
      accountType = aAccountType;

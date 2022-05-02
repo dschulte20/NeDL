@@ -2,7 +2,7 @@ using System;
 
 namespace BankAccount
 {
-  class Cd: Person, IGetFee, IGetInterest // child class
+  class Cd: Account, IGetFee, IGetInterest // child class
   {
     public double cdAnnualInterest;
     public double cdEarlyWithdrawal;

@@ -7,7 +7,7 @@ namespace BankAccount
   {
       static void Main (string[] args)
       {
-        List<Person> accountList = new List<Person>();
+        List<Account> accountList = new List<Account>();
 
         //Person testPerson = new Person("1234", "Checking", 15000);
         //accountList.Add(testPerson);
@@ -17,7 +17,7 @@ namespace BankAccount
         accountList.Add(testCd);   
         Savings testSavings = new Savings("4985", "Savings", 15000, .07); 
         accountList.Add(testSavings); 
-            foreach (Person aPerson in accountList)
+            foreach (Account aPerson in accountList)
             {
             Console.WriteLine(aPerson);
             }
@@ -57,8 +57,8 @@ namespace BankAccount
                 //List Option
                 if (userChoiceString == "L" || userChoiceString == "l" )
                 {
-                foreach (Person aPerson in accountList)
-                Console.WriteLine(aPerson);     
+                foreach (Account anAccount in accountList)
+                Console.WriteLine(anAccount);     
                 }
                 else if (userChoiceString == "D"|| userChoiceString == "d" )
                 {

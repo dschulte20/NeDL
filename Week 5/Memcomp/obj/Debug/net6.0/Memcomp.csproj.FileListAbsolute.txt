@@ -1,0 +1,15 @@
+C:\Users\DSchulte\Desktop\NeDL\Week 5\Memcomp\obj\Debug\net6.0\Memcomp.csproj.AssemblyReference.cache
+C:\Users\DSchulte\Desktop\NeDL\Week 5\Memcomp\obj\Debug\net6.0\Memcomp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DSchulte\Desktop\NeDL\Week 5\Memcomp\obj\Debug\net6.0\Memcomp.AssemblyInfoInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Week 5\Memcomp\obj\Debug\net6.0\Memcomp.AssemblyInfo.cs
+C:\Users\DSchulte\Desktop\NeDL\Week 5\Memcomp\obj\Debug\net6.0\Memcomp.csproj.CoreCompileInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Week 5\Memcomp\bin\Debug\net6.0\Memcomp.exe
+C:\Users\DSchulte\Desktop\NeDL\Week 5\Memcomp\bin\Debug\net6.0\Memcomp.deps.json
+C:\Users\DSchulte\Desktop\NeDL\Week 5\Memcomp\bin\Debug\net6.0\Memcomp.runtimeconfig.json
+C:\Users\DSchulte\Desktop\NeDL\Week 5\Memcomp\bin\Debug\net6.0\Memcomp.dll
+C:\Users\DSchulte\Desktop\NeDL\Week 5\Memcomp\bin\Debug\net6.0\ref\Memcomp.dll
+C:\Users\DSchulte\Desktop\NeDL\Week 5\Memcomp\bin\Debug\net6.0\Memcomp.pdb
+C:\Users\DSchulte\Desktop\NeDL\Week 5\Memcomp\obj\Debug\net6.0\Memcomp.dll
+C:\Users\DSchulte\Desktop\NeDL\Week 5\Memcomp\obj\Debug\net6.0\ref\Memcomp.dll
+C:\Users\DSchulte\Desktop\NeDL\Week 5\Memcomp\obj\Debug\net6.0\Memcomp.pdb
+C:\Users\DSchulte\Desktop\NeDL\Week 5\Memcomp\obj\Debug\net6.0\Memcomp.genruntimeconfig.cache
