@@ -76,68 +76,80 @@ namespace Membership
         {
         Console.WriteLine("Please enter a new membership ID for the new account: ");
         string newMembershipID = Console.ReadLine();
-        Console.WriteLine("Please enter an email address: ");
-        string newEmail = Console.ReadLine();
-        Console.WriteLine("Please enter the membership type (R, C, E, or N): ");
-        string newMemberType = Console.ReadLine();
-        switch (newMemberType)      
+        bool found = false;
+            
+          for (int index = 0; index < memberList.Count; index++)
           {
-            case "R":
-            case "r":
-                Console.WriteLine("Please enter the annual cost.");
-                double newRAnnual = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("Please enter the current balance. ");
-                double newRBalance = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("Please enter the cash back rate. ");
-                double newRRate = Convert.ToDouble(Console.ReadLine());
-                memberList.Add(new Regular(newMembershipID, newEmail, newMemberType, newRAnnual, newRBalance, newRRate));
-                Console.WriteLine("Member added.  Printing out new list.");
-            break;
-            case "C":
-            case "c":
-                Console.WriteLine("Please enter the annual cost.");
-                double newCAnnual = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("Please enter the current balance. ");
-                double newCBalance = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("Please enter the cash back rate. ");
-                double newCRate = Convert.ToDouble(Console.ReadLine());
-                memberList.Add(new Corporate(newMembershipID, newEmail, newMemberType, newCAnnual, newCBalance, newCRate));
-                Console.WriteLine("Member added.  Printing out new list."); 
-            break;
-            case "E":
-            case "e":
-                Console.WriteLine("Please enter the annual cost.");
-                double newEAnnual = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("Please enter the current balance. ");
-                double newEBalance = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("Please enter the cash back amount if over $1000. ");
-                double newEORate = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("Please enter the cash back amount if under $1000. ");
-                double newEURate = Convert.ToDouble(Console.ReadLine());
-                memberList.Add(new Executive(newMembershipID, newEmail, newMemberType, newEAnnual, newEBalance, newEORate, newEURate));
-                Console.WriteLine("Member added.  Printing out new list.");   
-            break;
-            case "N":
-            case "n":
-                Console.WriteLine("Please enter the annual cost.");
-                double newNAnnual = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("Please enter the current balance. ");
-                double newNBalance = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("Please enter the cash back amount. ");
-                double newNRate = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("Please enter Y/N for Military or Educational organization. ");
-                string newMilitaryEducation = Convert.ToString(Console.ReadLine());
-                memberList.Add(new Nonprofit(newMembershipID, newEmail, newMemberType, newNAnnual, newNBalance, newNRate, newMilitaryEducation));
-                Console.WriteLine("Member added.  Printing out new list.");         
-            break;
-            default:
-                Console.WriteLine("Invalid membership. Nothing was added.");
-            break;
+          if ((memberList[index].membershipId == newMembershipID))
+              {
+              Console.Write("Member ID already in use. Please enter a new Member ID. ");
+              newMembershipID = Console.ReadLine();
+              }
+          if ((memberList[index].membershipId == newMembershipID!))
+          {
+          Console.WriteLine("Please enter an email address: ");
+          string newEmail = Console.ReadLine();
+          Console.WriteLine("Please enter the membership type (R, C, E, or N): ");
+          string newMemberType = Console.ReadLine();
+          switch (newMemberType)      
+            {
+              case "R":
+              case "r":
+                  Console.WriteLine("Please enter the annual cost.");
+                  double newRAnnual = Convert.ToDouble(Console.ReadLine());
+                  Console.WriteLine("Please enter the current balance. ");
+                  double newRBalance = Convert.ToDouble(Console.ReadLine());
+                  Console.WriteLine("Please enter the cash back rate. ");
+                  double newRRate = Convert.ToDouble(Console.ReadLine());
+                  memberList.Add(new Regular(newMembershipID, newEmail, newMemberType, newRAnnual, newRBalance, newRRate));
+                  Console.WriteLine("Member added.  Printing out new list.");
+              break;
+              case "C":
+              case "c":
+                  Console.WriteLine("Please enter the annual cost.");
+                  double newCAnnual = Convert.ToDouble(Console.ReadLine());
+                  Console.WriteLine("Please enter the current balance. ");
+                  double newCBalance = Convert.ToDouble(Console.ReadLine());
+                  Console.WriteLine("Please enter the cash back rate. ");
+                  double newCRate = Convert.ToDouble(Console.ReadLine());
+                  memberList.Add(new Corporate(newMembershipID, newEmail, newMemberType, newCAnnual, newCBalance, newCRate));
+                  Console.WriteLine("Member added.  Printing out new list."); 
+              break;
+              case "E":
+              case "e":
+                  Console.WriteLine("Please enter the annual cost.");
+                  double newEAnnual = Convert.ToDouble(Console.ReadLine());
+                  Console.WriteLine("Please enter the current balance. ");
+                  double newEBalance = Convert.ToDouble(Console.ReadLine());
+                  Console.WriteLine("Please enter the cash back amount if over $1000. ");
+                  double newEORate = Convert.ToDouble(Console.ReadLine());
+                  Console.WriteLine("Please enter the cash back amount if under $1000. ");
+                  double newEURate = Convert.ToDouble(Console.ReadLine());
+                  memberList.Add(new Executive(newMembershipID, newEmail, newMemberType, newEAnnual, newEBalance, newEORate, newEURate));
+                  Console.WriteLine("Member added.  Printing out new list.");   
+              break;
+              case "N":
+              case "n":
+                  Console.WriteLine("Please enter the annual cost.");
+                  double newNAnnual = Convert.ToDouble(Console.ReadLine());
+                  Console.WriteLine("Please enter the current balance. ");
+                  double newNBalance = Convert.ToDouble(Console.ReadLine());
+                  Console.WriteLine("Please enter the cash back amount. ");
+                  double newNRate = Convert.ToDouble(Console.ReadLine());
+                  Console.WriteLine("Please enter Y/N for Military or Educational organization. ");
+                  string newMilitaryEducation = Convert.ToString(Console.ReadLine());
+                  memberList.Add(new Nonprofit(newMembershipID, newEmail, newMemberType, newNAnnual, newNBalance, newNRate, newMilitaryEducation));
+                  Console.WriteLine("Member added.  Printing out new list.");         
+              break;
+              default:
+                  Console.WriteLine("Invalid membership. Nothing was added.");
+              break;
             }      
                 foreach (Member aMember in memberList)
                 Console.WriteLine(aMember);
             }
-          //End Create   
+          }   
+          }//End Create
 
           //else if the option is a U or u then update a name in the array (if it's there)           
           else if (userChoiceString == "U"|| userChoiceString == "u" )
@@ -215,10 +227,9 @@ namespace Membership
                     Console.WriteLine("Member not found. Please enter a valid member ID.");
                 // print the list again
                 foreach (Member aMember in memberList)
-                        Console.WriteLine(aMember);    
+                    Console.WriteLine(aMember);    
             }//end Update       
           
-
             //else if the option is a D or d then delete the member(if it's there)     
             else if (userChoiceString == "D"|| userChoiceString == "d" )
                     {
