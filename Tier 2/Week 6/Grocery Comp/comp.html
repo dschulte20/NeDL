@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+
+    <link rel="stylesheet" href="comp.css">
+    <script src="comp.js"></script>
+</head>
+<body>
+    <h1>Grocery List</h1>
+    <div class="myflexboxRow">
+        <div class="myflexboxColumn">
+            <h2>Form to obtain item for grocery list</h2>
+            <form name="myForm">
+                Item: <input type="text" name="newWord" value="">
+                <input type="button" value="Add to list" onclick="validateANDadd()"><br />
+                Item: <input type="text" name="remove" value="">
+                <input type="button" value="Remove from list" onclick="removeItem()"><br />
+            </form>
+        </div>
+        <div class="myflexboxColumn">
+            <h2>List</h2>
+            <table id="myList">
+            </table>
+            <br /> <br />
+            <input type="button" value="Clear the list" onclick="clearList()">
+        </div>
+    </div>    
+</body>
+</html>
