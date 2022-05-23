@@ -1,0 +1,14 @@
+.bd-placeholder-img {
+    font-size: 3rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  @media (mid-width: 768px){
+    .bd-placeholder-img-lg{
+        font-size:5rem;
+        font-style: italic;
+    }
+  }

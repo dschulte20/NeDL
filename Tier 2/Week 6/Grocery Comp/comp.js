@@ -9,11 +9,12 @@ function validateANDadd() {
     }
     else {
         var tableRef = document.getElementById("myList");
-        (tableRef.insertRow(tableRef.rows.length)).innerHTML = theNewWord;
+        var tableRow = (tableRef.insertRow(tableRef.rows.length));
+        (tableRow.insertCell(tableRow.cells.length)).innerHTML = theNewWord;
+        // erase the form fields
+        document.forms["myForm"]["newWord"].value = "";
+        return true;
     }
-    // erase the form fields
-    document.forms["myForm"]["newWord"].value = "";
-    return true;
 }
 function clearList() {
     // clear the table of all rows
@@ -23,10 +24,5 @@ function clearList() {
 function removeItem() {
     //remove an item from the list
     var removeRef = document.forms["myForm"]["removeRef"].value;
-    if (removeRef == "") {
-        alert("Please enter a word on the list.");
-    }
-    else {
-        document.getElementById("myList").innerHTML = document.getElementById("myList").innerHTML.replace(removeRef, removeRef.strike());
-    }
+    document.getElementById("myList").innerHTML = document.getElementById("myList").innerHTML.replace(removeRef, removeRef.strike());
 }

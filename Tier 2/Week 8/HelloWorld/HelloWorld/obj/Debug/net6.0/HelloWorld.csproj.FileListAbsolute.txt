@@ -1,0 +1,15 @@
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\HelloWorld\HelloWorld\bin\Debug\net6.0\HelloWorld.exe
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\HelloWorld\HelloWorld\bin\Debug\net6.0\HelloWorld.deps.json
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\HelloWorld\HelloWorld\bin\Debug\net6.0\HelloWorld.runtimeconfig.json
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\HelloWorld\HelloWorld\bin\Debug\net6.0\HelloWorld.dll
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\HelloWorld\HelloWorld\bin\Debug\net6.0\ref\HelloWorld.dll
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\HelloWorld\HelloWorld\bin\Debug\net6.0\HelloWorld.pdb
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.csproj.AssemblyReference.cache
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfoInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfo.cs
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.dll
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\HelloWorld\HelloWorld\obj\Debug\net6.0\ref\HelloWorld.dll
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.pdb
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\HelloWorld\HelloWorld\obj\Debug\net6.0\HelloWorld.genruntimeconfig.cache
