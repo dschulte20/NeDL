@@ -9687,19 +9687,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MFreemyer\\.nuget\\packages\\": {}
+    "C:\\Users\\DSchulte\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MFreemyer\\Desktop\\NeDL\\Tier2\\TodoApi\\TodoApi\\TodoApi.csproj",
-      "projectName": "TodoApi",
-      "projectPath": "C:\\Users\\MFreemyer\\Desktop\\NeDL\\Tier2\\TodoApi\\TodoApi\\TodoApi.csproj",
-      "packagesPath": "C:\\Users\\MFreemyer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MFreemyer\\Desktop\\NeDL\\Tier2\\TodoApi\\TodoApi\\obj\\",
+      "projectUniqueName": "C:\\Users\\DSchulte\\Desktop\\NeDL\\Tier 2\\Week 9\\TodoApi\\TodoApi\\GuitarApi.csproj",
+      "projectName": "GuitarApi",
+      "projectPath": "C:\\Users\\DSchulte\\Desktop\\NeDL\\Tier 2\\Week 9\\TodoApi\\TodoApi\\GuitarApi.csproj",
+      "packagesPath": "C:\\Users\\DSchulte\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DSchulte\\Desktop\\NeDL\\Tier 2\\Week 9\\TodoApi\\TodoApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MFreemyer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DSchulte\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9766,7 +9766,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
       }
     }
   }

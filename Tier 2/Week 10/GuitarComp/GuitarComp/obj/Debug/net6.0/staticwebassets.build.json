@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "QQUaN/z8uSsl4TDbrx7iCQiWJ3PQrwFywg9fk3JT2Fc=",
+  "Source": "GuitarComp",
+  "BasePath": "_content/GuitarComp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GuitarComp\\wwwroot",
+      "Source": "GuitarComp",
+      "ContentRoot": "C:\\Users\\DSchulte\\Desktop\\NeDL\\Tier 2\\Week 10\\GuitarComp\\GuitarComp\\wwwroot\\",
+      "BasePath": "_content/GuitarComp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\DSchulte\\Desktop\\NeDL\\Tier 2\\Week 10\\GuitarComp\\GuitarComp\\wwwroot\\css\\site.css",
+      "SourceId": "GuitarComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DSchulte\\Desktop\\NeDL\\Tier 2\\Week 10\\GuitarComp\\GuitarComp\\wwwroot\\",
+      "BasePath": "_content/GuitarComp",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\DSchulte\\Desktop\\NeDL\\Tier 2\\Week 10\\GuitarComp\\GuitarComp\\wwwroot\\index.html",
+      "SourceId": "GuitarComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DSchulte\\Desktop\\NeDL\\Tier 2\\Week 10\\GuitarComp\\GuitarComp\\wwwroot\\",
+      "BasePath": "_content/GuitarComp",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\DSchulte\\Desktop\\NeDL\\Tier 2\\Week 10\\GuitarComp\\GuitarComp\\wwwroot\\js\\site.js",
+      "SourceId": "GuitarComp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DSchulte\\Desktop\\NeDL\\Tier 2\\Week 10\\GuitarComp\\GuitarComp\\wwwroot\\",
+      "BasePath": "_content/GuitarComp",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
+}

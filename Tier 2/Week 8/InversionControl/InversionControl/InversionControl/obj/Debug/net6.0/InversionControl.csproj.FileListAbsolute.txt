@@ -1,0 +1,5 @@
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\InversionControl\InversionControl\InversionControl\obj\Debug\net6.0\InversionControl.csproj.AssemblyReference.cache
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\InversionControl\InversionControl\InversionControl\obj\Debug\net6.0\InversionControl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\InversionControl\InversionControl\InversionControl\obj\Debug\net6.0\InversionControl.AssemblyInfoInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\InversionControl\InversionControl\InversionControl\obj\Debug\net6.0\InversionControl.AssemblyInfo.cs
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\InversionControl\InversionControl\InversionControl\obj\Debug\net6.0\InversionControl.csproj.CoreCompileInputs.cache

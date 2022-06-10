@@ -1,27 +1,27 @@
 {
   "Version": 1,
-  "Hash": "qeC4YE9LQJHTOD6J0iYNQMEYLoE4qjy39SYyA67lzgU=",
-  "Source": "TodoApi",
-  "BasePath": "_content/TodoApi",
+  "Hash": "3Xfj84MluZ1FmRT02WEVlJfEfNCObWlNzqjJDZHroKA=",
+  "Source": "GuitarApi",
+  "BasePath": "_content/GuitarApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "TodoApi\\wwwroot",
-      "Source": "TodoApi",
-      "ContentRoot": "C:\\Users\\MFreemyer\\Desktop\\NeDL\\Tier2\\TodoApi\\TodoApi\\wwwroot\\",
-      "BasePath": "_content/TodoApi",
+      "Name": "GuitarApi\\wwwroot",
+      "Source": "GuitarApi",
+      "ContentRoot": "C:\\Users\\DSchulte\\Desktop\\NeDL\\Tier 2\\Week 9\\TodoApi\\TodoApi\\wwwroot\\",
+      "BasePath": "_content/GuitarApi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\MFreemyer\\Desktop\\NeDL\\Tier2\\TodoApi\\TodoApi\\wwwroot\\css\\site.css",
-      "SourceId": "TodoApi",
+      "Identity": "C:\\Users\\DSchulte\\Desktop\\NeDL\\Tier 2\\Week 9\\TodoApi\\TodoApi\\wwwroot\\css\\site.css",
+      "SourceId": "GuitarApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MFreemyer\\Desktop\\NeDL\\Tier2\\TodoApi\\TodoApi\\wwwroot\\",
-      "BasePath": "_content/TodoApi",
+      "ContentRoot": "C:\\Users\\DSchulte\\Desktop\\NeDL\\Tier 2\\Week 9\\TodoApi\\TodoApi\\wwwroot\\",
+      "BasePath": "_content/GuitarApi",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -34,11 +34,11 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\MFreemyer\\Desktop\\NeDL\\Tier2\\TodoApi\\TodoApi\\wwwroot\\index.html",
-      "SourceId": "TodoApi",
+      "Identity": "C:\\Users\\DSchulte\\Desktop\\NeDL\\Tier 2\\Week 9\\TodoApi\\TodoApi\\wwwroot\\index.html",
+      "SourceId": "GuitarApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MFreemyer\\Desktop\\NeDL\\Tier2\\TodoApi\\TodoApi\\wwwroot\\",
-      "BasePath": "_content/TodoApi",
+      "ContentRoot": "C:\\Users\\DSchulte\\Desktop\\NeDL\\Tier 2\\Week 9\\TodoApi\\TodoApi\\wwwroot\\",
+      "BasePath": "_content/GuitarApi",
       "RelativePath": "index.html",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -51,11 +51,11 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\MFreemyer\\Desktop\\NeDL\\Tier2\\TodoApi\\TodoApi\\wwwroot\\js\\site.js",
-      "SourceId": "TodoApi",
+      "Identity": "C:\\Users\\DSchulte\\Desktop\\NeDL\\Tier 2\\Week 9\\TodoApi\\TodoApi\\wwwroot\\js\\site.js",
+      "SourceId": "GuitarApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MFreemyer\\Desktop\\NeDL\\Tier2\\TodoApi\\TodoApi\\wwwroot\\",
-      "BasePath": "_content/TodoApi",
+      "ContentRoot": "C:\\Users\\DSchulte\\Desktop\\NeDL\\Tier 2\\Week 9\\TodoApi\\TodoApi\\wwwroot\\",
+      "BasePath": "_content/GuitarApi",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
       "AssetMode": "All",

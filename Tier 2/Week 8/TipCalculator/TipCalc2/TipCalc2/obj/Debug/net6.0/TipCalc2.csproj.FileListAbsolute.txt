@@ -1,0 +1,15 @@
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\TipCalculator\TipCalc2\TipCalc2\bin\Debug\net6.0\TipCalc2.exe
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\TipCalculator\TipCalc2\TipCalc2\bin\Debug\net6.0\TipCalc2.deps.json
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\TipCalculator\TipCalc2\TipCalc2\bin\Debug\net6.0\TipCalc2.runtimeconfig.json
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\TipCalculator\TipCalc2\TipCalc2\bin\Debug\net6.0\TipCalc2.dll
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\TipCalculator\TipCalc2\TipCalc2\bin\Debug\net6.0\ref\TipCalc2.dll
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\TipCalculator\TipCalc2\TipCalc2\bin\Debug\net6.0\TipCalc2.pdb
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\TipCalculator\TipCalc2\TipCalc2\obj\Debug\net6.0\TipCalc2.csproj.AssemblyReference.cache
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\TipCalculator\TipCalc2\TipCalc2\obj\Debug\net6.0\TipCalc2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\TipCalculator\TipCalc2\TipCalc2\obj\Debug\net6.0\TipCalc2.AssemblyInfoInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\TipCalculator\TipCalc2\TipCalc2\obj\Debug\net6.0\TipCalc2.AssemblyInfo.cs
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\TipCalculator\TipCalc2\TipCalc2\obj\Debug\net6.0\TipCalc2.csproj.CoreCompileInputs.cache
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\TipCalculator\TipCalc2\TipCalc2\obj\Debug\net6.0\TipCalc2.dll
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\TipCalculator\TipCalc2\TipCalc2\obj\Debug\net6.0\ref\TipCalc2.dll
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\TipCalculator\TipCalc2\TipCalc2\obj\Debug\net6.0\TipCalc2.pdb
+C:\Users\DSchulte\Desktop\NeDL\Tier 2\Week 8\TipCalculator\TipCalc2\TipCalc2\obj\Debug\net6.0\TipCalc2.genruntimeconfig.cache

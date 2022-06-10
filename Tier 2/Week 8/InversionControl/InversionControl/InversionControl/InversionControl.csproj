@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CloudLogger.cs" />
+    <Compile Remove="DataBaseLogger.cs" />
+    <Compile Remove="FileLogger.cs" />
+    <Compile Remove="ILogger.cs" />
+    <Compile Remove="ProductService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="CloudLogger.cs" />
+    <None Include="DataBaseLogger.cs" />
+    <None Include="FileLogger.cs" />
+    <None Include="ILogger.cs" />
+    <None Include="ProductService.cs" />
+  </ItemGroup>
+
+</Project>
